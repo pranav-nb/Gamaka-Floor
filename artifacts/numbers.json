@@ -1,0 +1,449 @@
+{
+  "m0": {
+    "n_metadata_json": 249,
+    "n_raga_labelled": 184,
+    "n_pitch": 197,
+    "n_pitch_vocal": 56,
+    "n_tonic": 197,
+    "n_sections_p": 119,
+    "n_sections_plain": 73,
+    "sections_plain_is_subset_of_p": true,
+    "merge_adds_recordings": 0,
+    "alap_min_p_only": 252.6,
+    "alap_min_merged": 252.6,
+    "n_quant_usable_recordings": 184,
+    "n_quant_distinct_ragas": 96,
+    "n_ragas_ge2rec_ge2artist": 42,
+    "alap_balanced_ragas": [
+      "Karaharapriya",
+      "Mōhanaṁ"
+    ],
+    "allied_pair_found": false,
+    "decision_status": "AWAITING USER SCOPE CONFIRMATION (see status/STATUS_M0.md)"
+  },
+  "m1": {
+    "alapana_corpus_segments": 8,
+    "alapana_corpus_ragas": [
+      "Bhairavi",
+      "Karaharapriya",
+      "Mōhanaṁ",
+      "Ṣanmukhapriya"
+    ],
+    "allsections_corpus_segments": 526,
+    "allsections_n_sectioned_recordings": 111,
+    "allsections_n_whole_track_recordings": 65,
+    "mislabelled_sections_dropped": 0,
+    "mislabelled_sections_outside_ragamalika": 0,
+    "primary_m2_pool_ragas": [
+      "Behāg",
+      "Bhairavi",
+      "Harikāmbhōji",
+      "Kalyāṇi",
+      "Kamās",
+      "Mōhanaṁ",
+      "Rītigauḷa",
+      "Sindhubhairavi",
+      "Suraṭi",
+      "Sāvēri",
+      "Tōḍi",
+      "Ṣanmukhapriya"
+    ],
+    "primary_m2_pool_size": 12,
+    "secondary_m2_pool_size": 40,
+    "composition_degenerate_ragas": [
+      "Jōnpuri",
+      "Saurāṣtraṁ"
+    ],
+    "pitch_vocal_measured_fps": 344.531,
+    "pitch_mix_measured_fps": 225.0
+  },
+  "m2": {
+    "window_sec": 4.0,
+    "hop_sec": 4.0,
+    "resolutions_cents": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "classifier": "LogisticRegression(class_weight=balanced, C=10)",
+    "class_imbalance_catch": "unweighted LR gave near-chance/degenerate zero-recall results on imbalanced window counts; class_weight=balanced fixed it (see section 2)",
+    "primary_pool_ragas": [
+      "Kamās",
+      "Tōḍi",
+      "Bhairavi",
+      "Behāg",
+      "Kalyāṇi",
+      "Mōhanaṁ",
+      "Suraṭi",
+      "Rītigauḷa",
+      "Ṣanmukhapriya",
+      "Harikāmbhōji",
+      "Sindhubhairavi",
+      "Sāvēri"
+    ],
+    "secondary_pool_size": 40,
+    "alapana_recording_grouped": {
+      "continuous (10c)": {
+        "bal_acc_mean": 0.5818,
+        "bal_acc_std": 0.1292
+      },
+      "20c": {
+        "bal_acc_mean": 0.5904,
+        "bal_acc_std": 0.141
+      },
+      "50c": {
+        "bal_acc_mean": 0.565,
+        "bal_acc_std": 0.1371
+      },
+      "semitone (100c)": {
+        "bal_acc_mean": 0.5162,
+        "bal_acc_std": 0.1114
+      }
+    },
+    "primary12_recording_grouped": {
+      "continuous (10c)": {
+        "bal_acc_mean": 0.3828,
+        "bal_acc_std": 0.0087
+      },
+      "20c": {
+        "bal_acc_mean": 0.3909,
+        "bal_acc_std": 0.0108
+      },
+      "50c": {
+        "bal_acc_mean": 0.4023,
+        "bal_acc_std": 0.0194
+      },
+      "semitone (100c)": {
+        "bal_acc_mean": 0.3091,
+        "bal_acc_std": 0.0099
+      }
+    },
+    "primary12_artist_grouped": {
+      "continuous (10c)": {
+        "bal_acc_mean": 0.3984,
+        "bal_acc_std": 0.0442
+      },
+      "20c": {
+        "bal_acc_mean": 0.4081,
+        "bal_acc_std": 0.0398
+      },
+      "50c": {
+        "bal_acc_mean": 0.4188,
+        "bal_acc_std": 0.0649
+      },
+      "semitone (100c)": {
+        "bal_acc_mean": 0.3257,
+        "bal_acc_std": 0.0054
+      }
+    },
+    "primary12_composition_grouped": {
+      "continuous (10c)": {
+        "bal_acc_mean": 0.3818,
+        "bal_acc_std": 0.0359
+      },
+      "20c": {
+        "bal_acc_mean": 0.3908,
+        "bal_acc_std": 0.0319
+      },
+      "50c": {
+        "bal_acc_mean": 0.3967,
+        "bal_acc_std": 0.0312
+      },
+      "semitone (100c)": {
+        "bal_acc_mean": 0.3158,
+        "bal_acc_std": 0.0411
+      }
+    },
+    "secondary40_recording_grouped": {
+      "continuous (10c)": {
+        "bal_acc_mean": 0.1297,
+        "bal_acc_std": 0.0062
+      },
+      "20c": {
+        "bal_acc_mean": 0.1384,
+        "bal_acc_std": 0.0068
+      },
+      "50c": {
+        "bal_acc_mean": 0.1474,
+        "bal_acc_std": 0.0024
+      },
+      "semitone (100c)": {
+        "bal_acc_mean": 0.118,
+        "bal_acc_std": 0.0138
+      }
+    },
+    "raga_degradation_ranking": [
+      {
+        "raga": "Suraṭi",
+        "recall_continuous": 0.4415,
+        "recall_semitone": 0.2713,
+        "drop": 0.1702
+      },
+      {
+        "raga": "Sindhubhairavi",
+        "recall_continuous": 0.4647,
+        "recall_semitone": 0.3176,
+        "drop": 0.1471
+      },
+      {
+        "raga": "Mōhanaṁ",
+        "recall_continuous": 0.4335,
+        "recall_semitone": 0.2947,
+        "drop": 0.1388
+      },
+      {
+        "raga": "Kamās",
+        "recall_continuous": 0.4973,
+        "recall_semitone": 0.3736,
+        "drop": 0.1236
+      },
+      {
+        "raga": "Rītigauḷa",
+        "recall_continuous": 0.1977,
+        "recall_semitone": 0.1032,
+        "drop": 0.0946
+      },
+      {
+        "raga": "Bhairavi",
+        "recall_continuous": 0.4496,
+        "recall_semitone": 0.3842,
+        "drop": 0.0654
+      },
+      {
+        "raga": "Tōḍi",
+        "recall_continuous": 0.4325,
+        "recall_semitone": 0.3694,
+        "drop": 0.0631
+      },
+      {
+        "raga": "Kalyāṇi",
+        "recall_continuous": 0.1316,
+        "recall_semitone": 0.085,
+        "drop": 0.0466
+      },
+      {
+        "raga": "Behāg",
+        "recall_continuous": 0.3771,
+        "recall_semitone": 0.339,
+        "drop": 0.0381
+      },
+      {
+        "raga": "Ṣanmukhapriya",
+        "recall_continuous": 0.4324,
+        "recall_semitone": 0.4078,
+        "drop": 0.0247
+      },
+      {
+        "raga": "Harikāmbhōji",
+        "recall_continuous": 0.1882,
+        "recall_semitone": 0.1897,
+        "drop": -0.0016
+      },
+      {
+        "raga": "Sāvēri",
+        "recall_continuous": 0.6493,
+        "recall_semitone": 0.7475,
+        "drop": -0.0982
+      }
+    ]
+  },
+  "m3": {
+    "decision": "dropped",
+    "reason": "no musically-allied pair in the collection clears the artist-balance bar on both sides (M0 search); widened scan found 18 well-balanced ragas but none form an allied pair with each other",
+    "candidates_checked": [
+      "Suraṭi/Kēḍāragauḷa",
+      "Kāṃbhōji/Harikāṃbhōji",
+      "Ābhōgi/Śrīranjani",
+      "Bēgaḍa/Śankarābharaṇaṃ",
+      "Kalyāṇi/Hamīr kaḷyaṇi"
+    ],
+    "n_balanced_ragas_no_ally": 18,
+    "substitute": "m2_raga_degradation_ranking (reused, not recomputed)",
+    "leave_one_artist_out_check_run": false
+  },
+  "m4": {
+    "model": "RagaContourGRU (1-layer GRU, tok_emb=32, raga_emb=8, hidden=96)",
+    "n_params": 56917,
+    "device": "cpu",
+    "ragas": [
+      "Karaharapriya",
+      "Mōhanaṁ"
+    ],
+    "n_windows_per_raga": {
+      "Karaharapriya": 538,
+      "Mōhanaṁ": 396
+    },
+    "window_sec": 2.0,
+    "decimated_fps": 114.84375000218529,
+    "bin_width_cents": 25.0,
+    "vocab_size": 133,
+    "cents_range": [
+      -1200.0,
+      2100.0
+    ],
+    "epochs": 35,
+    "loss_start": 4.272894159952799,
+    "loss_end": 0.9210752765337626,
+    "loss_chance_level": 4.890349128221754,
+    "diverged": false,
+    "held_out_split": "none -- trained on all windows, both artists per raga (see design notes, cell 1)",
+    "n_generated_samples_per_raga": 6
+  },
+  "m5": {
+    "histogram_distance": [
+      {
+        "bin_width": 10,
+        "raga": "Karaharapriya",
+        "js_to_own_real": 0.6179009765774374,
+        "js_to_other_real": 0.6172732125374403,
+        "discriminative_gap": -0.0006277640399970918
+      },
+      {
+        "bin_width": 10,
+        "raga": "Mōhanaṁ",
+        "js_to_own_real": 0.6275410573403287,
+        "js_to_other_real": 0.6468735406295716,
+        "discriminative_gap": 0.019332483289242863
+      },
+      {
+        "bin_width": 20,
+        "raga": "Karaharapriya",
+        "js_to_own_real": 0.32186733747752133,
+        "js_to_other_real": 0.3760130797730311,
+        "discriminative_gap": 0.05414574229550978
+      },
+      {
+        "bin_width": 20,
+        "raga": "Mōhanaṁ",
+        "js_to_own_real": 0.38381423228506534,
+        "js_to_other_real": 0.3865354832978461,
+        "discriminative_gap": 0.0027212510127807565
+      },
+      {
+        "bin_width": 50,
+        "raga": "Karaharapriya",
+        "js_to_own_real": 0.24334807745532294,
+        "js_to_other_real": 0.29366331630044257,
+        "discriminative_gap": 0.050315238845119625
+      },
+      {
+        "bin_width": 50,
+        "raga": "Mōhanaṁ",
+        "js_to_own_real": 0.30690440720570605,
+        "js_to_other_real": 0.3176658312413256,
+        "discriminative_gap": 0.010761424035619527
+      },
+      {
+        "bin_width": 100,
+        "raga": "Karaharapriya",
+        "js_to_own_real": 0.20944196496454184,
+        "js_to_other_real": 0.25423841611486736,
+        "discriminative_gap": 0.04479645115032552
+      },
+      {
+        "bin_width": 100,
+        "raga": "Mōhanaṁ",
+        "js_to_own_real": 0.2827252593170032,
+        "js_to_other_real": 0.29245649585971645,
+        "discriminative_gap": 0.00973123654271324
+      }
+    ],
+    "judge_classifier": {
+      "config": "LogisticRegression(class_weight=balanced, C=10), fresh fit (M2's fitted models not persisted)",
+      "bin_width_resolutions_cents": [
+        10,
+        20,
+        50,
+        100
+      ],
+      "results": [
+        {
+          "bin_width": 10,
+          "raga": "Karaharapriya",
+          "judge_call_accuracy": 0.16666666666666666,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.6013762156884834,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 10,
+          "raga": "Mōhanaṁ",
+          "judge_call_accuracy": 1.0,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.6013762156884834,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 20,
+          "raga": "Karaharapriya",
+          "judge_call_accuracy": 0.8333333333333334,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.5905382824527805,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 20,
+          "raga": "Mōhanaṁ",
+          "judge_call_accuracy": 0.6666666666666666,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.5905382824527805,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 50,
+          "raga": "Karaharapriya",
+          "judge_call_accuracy": 0.8333333333333334,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.577912019826518,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 50,
+          "raga": "Mōhanaṁ",
+          "judge_call_accuracy": 0.5,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.577912019826518,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 100,
+          "raga": "Karaharapriya",
+          "judge_call_accuracy": 0.8333333333333334,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.5758420637602794,
+          "cv_n_splits": 2
+        },
+        {
+          "bin_width": 100,
+          "raga": "Mōhanaṁ",
+          "judge_call_accuracy": 0.5,
+          "n_generated": 6,
+          "real_artist_grouped_cv_bal_acc": 0.5758420637602794,
+          "cv_n_splits": 2
+        }
+      ]
+    },
+    "memorisation_check": {
+      "real_to_real_nn_baseline_median_cents": 161.9220733642578,
+      "real_to_real_nn_baseline_min_cents": 7.071068286895752,
+      "generated_to_real_nn_median_cents": 149.2767333984375,
+      "generated_to_real_nn_min_cents": 13.86666488647461,
+      "n_real_baseline_sampled": 200,
+      "n_generated_checked": 12
+    },
+    "framing": "proof-of-concept: 6 generated samples/raga vs. 2 real recordings/raga; all numbers suggestive, not confident generation-quality claims"
+  },
+  "m6": {
+    "status": "report assembled",
+    "milestones_present": [
+      "m0",
+      "m1",
+      "m2",
+      "m3",
+      "m4",
+      "m5"
+    ],
+    "requirements_pinned": true
+  }
+}

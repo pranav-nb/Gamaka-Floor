@@ -1,0 +1,10 @@
+# Derived corpora — regenerable via notebooks/01_corpus_build.ipynb against DATA_ROOT
+corpus/
+corpus_allsections/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local Claude Code session config, not project content
+.claude/

@@ -1,0 +1,23 @@
+{
+  "window_sec": 2.0,
+  "decimate_stride": 3,
+  "decimated_fps": 114.84375000218529,
+  "bin_width_cents": 25.0,
+  "vocab_size": 133,
+  "n_bins": 132,
+  "start_id": 132,
+  "cents_lo": -1200.0,
+  "cents_hi": 2100.0,
+  "ragas": [
+    "Karaharapriya",
+    "Mōhanaṁ"
+  ],
+  "raga_to_idx": {
+    "Karaharapriya": 0,
+    "Mōhanaṁ": 1
+  },
+  "n_windows_per_raga": {
+    "Karaharapriya": 538,
+    "Mōhanaṁ": 396
+  }
+}

@@ -1,0 +1,96 @@
+raga,minutes,artists,recs,comps,comp_degenerate
+Kamās,49.857,4,7,7,False
+Saurāṣtraṁ,5.839,5,6,1,True
+Tōḍi,115.874,7,6,6,False
+Bhairavi,107.77,4,5,4,False
+Behāg,16.228,4,5,4,False
+Kalyāṇi,33.231,3,4,4,False
+Mōhanaṁ,58.53,4,4,4,False
+Suraṭi,12.693,4,4,4,False
+Rītigauḷa,47.258,4,4,4,False
+Ṣanmukhapriya,108.631,3,4,4,False
+Kāṁbhōji,82.077,2,3,3,False
+Kānaḍa,9.554,2,3,3,False
+Harikāmbhōji,43.275,3,3,3,False
+Jōnpuri,10.602,3,3,2,True
+Sindhubhairavi,11.755,3,3,3,False
+Sāvēri,33.489,3,3,3,False
+Śankarābharaṇaṁ,12.041,2,3,3,False
+Karaharapriya,69.181,2,2,2,True
+Kuntalavarāḷi,7.229,2,2,2,True
+Kumudakriyā,23.32,2,2,1,True
+Kāpi,32.638,1,2,2,True
+Kēdāragauḷa,33.293,2,2,2,True
+Amṛtavarṣiṇi,23.535,2,2,2,True
+Kalgaḍa,5.828,2,2,1,True
+Hamīr kaḷyaṇi,5.955,2,2,2,True
+Gauḷa,19.085,2,2,2,True
+Jaganmōhini,11.731,2,2,2,True
+Bēgaḍa,42.667,3,2,2,True
+Pūrṇacandrika,4.854,2,2,2,True
+Nīlāṁbari,10.379,2,2,2,True
+Pāḍi,10.101,2,2,2,True
+Madhyamāvati,3.865,2,2,2,True
+Lalita,23.969,2,2,1,True
+Maṇirangu,7.864,2,2,2,True
+Nāṭa,14.092,2,2,2,True
+Nādanāmakriya,2.737,2,2,1,True
+Śrīranjani,7.349,2,2,2,True
+Śuddadhanyāsi,19.065,2,2,2,True
+Ābhōgi,6.726,2,2,2,True
+Mārgahindōḷaṁ,6.495,2,2,2,True
+Karṇāṭaka dēvagāndhāri,6.802,2,2,2,True
+Hussēnī,5.161,1,1,1,True
+Janaranjani,8.697,1,1,1,True
+Kalāvati,15.113,1,1,1,True
+Dvijāvanti,4.329,1,1,1,True
+Dēvagāndhāri,3.851,1,1,1,True
+Dēś,2.819,1,1,1,True
+Bāgēśrī,4.168,1,1,1,True
+Bhūṣāvaḷi,2.695,1,1,1,True
+Bahudāri,3.17,1,1,1,True
+Gamakakriyā,18.962,1,1,1,True
+Hamsadhvani,1.123,1,1,1,True
+Gaṁbhīra nāṭa,4.265,1,1,1,True
+Haṁsānandi,1.052,1,1,1,True
+Hindōḷaṁ,4.532,1,1,1,True
+Bṛndāvana sāranga,6.768,1,1,1,True
+Cakravākaṁ,7.688,1,1,1,True
+Cittaranjani,4.013,1,1,1,True
+Dhanaśrī,2.896,1,1,1,True
+Dhanyāsi,26.536,1,1,1,True
+Kedāraṁ,9.155,1,1,1,True
+Mandāri,5.659,1,1,1,True
+Latāngi,18.584,1,1,1,True
+Rasikapriya,19.971,1,1,1,True
+Ranjani,16.242,1,1,1,True
+Pūrvīkaḷyāṇi,7.313,1,1,1,True
+Puṇṇāgavarāḷi,3.097,1,1,1,True
+Pahāḍi,3.586,1,1,1,True
+Mānḍu,4.276,1,1,1,True
+Navrōj,1.17,1,1,1,True
+Nāṭakapriya,37.067,1,1,1,True
+Kāmavardani/Pantuvarāḷi,17.355,1,1,1,True
+Lalita pancamaṁ,3.473,1,1,1,True
+Kathanakutūhalaṁ,3.008,1,1,1,True
+Simhēndra madhyamaṁ,3.955,1,1,1,True
+Sindhumandāri,1.723,1,1,1,True
+Sencuruṭṭi,2.97,1,1,1,True
+Sarasvatī manōhari,5.425,1,1,1,True
+Sahānā,7.743,2,1,1,True
+Tanarūpi,6.346,1,1,1,True
+Sārāmati,18.203,1,1,1,True
+Sāranga,4.279,1,1,1,True
+Sāma,3.843,1,1,1,True
+Sucaritra,8.643,1,1,1,True
+Sālaga bhairavi,3.36,1,1,1,True
+Vakuḷābharaṇaṁ,15.04,1,1,1,True
+Tillāng,4.224,1,1,1,True
+Yamuna kalyāṇi,4.544,1,1,1,True
+Vāgadīśvari,10.756,1,1,1,True
+Vasanta,3.779,1,1,1,True
+Varāḷi,8.872,1,1,1,True
+Śrī,10.168,1,1,1,True
+Ānandabhairavi,8.66,1,1,1,True
+Āhiri,9.836,1,1,1,True
+Śudda sāvēri,3.206,1,1,1,True
